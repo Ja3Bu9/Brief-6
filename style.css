@@ -1,0 +1,77 @@
+.container {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #35305B;
+    color: white;
+}
+.input{
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+    padding: 15px;
+    color: white;
+    background-color: #2B264B;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 20px;
+    font-size: 10px;
+    color: white;
+    background-color: #2B264B;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+input:focus{
+    border: 4px solid #2E3D7A;
+    padding: 20px;
+}
+
+.block {
+    display: inline-block;
+    position: relative;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: .8em;
+    width: 2em;
+}
+
+.divblock {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#result {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block:nth-child(odd) {
+    background: rgb(116, 90, 90);
+}
+
+.block:nth-child(even) {
+    background: rgba(53, 48, 91, 0.507);
+}
+
+#result {
+    margin: 20px;
+}
+
